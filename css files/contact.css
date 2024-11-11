@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 300vh;
+}
+
+.info .head,
+.touch .head {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info .head h1:before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 57%;
+    left: 35%;
+}
+
+.info .head h1:after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 57%;
+    left: 60%;
+}
+
+.info .head span::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 45%;
+    left: 37%;
+}
+
+.info .head span::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    left: 60%;
+    top: 45%;
+}
+
+.touch .head h1::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 57%;
+    left: 35%;
+}
+
+.touch .head h1::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 57%;
+    left: 60%;
+}
+
+.touch .head span::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 43%;
+    left: 37%;
+}
+
+.touch .head span::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 43%;
+    left: 60%;
+}
+
+.touch .head .left input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 15px;
+
+}
+
+.touch .head .center input,
+.touch .head .right input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 35px;
+}
+
+.touch .head .center input::placeholder,
+.touch .head .right input::placeholder,
+.touch .head .left input::placeholder {
+    padding: 10px;
+}
+
+
+.touch .head .left input:hover,
+.touch .head .center input:hover,
+.touch .head .right input:hover,
+.area .container .message textarea:hover {
+    border-color: rgb(52, 52, 233);
+}
+
+.touch .head .left input:focus,
+.touch .head .center input:focus,
+.touch .head .right input:focus,
+.area .container .message textarea:focus {
+    outline: none;
+    border-color: rgb(52, 52, 233);
+}
+
+.area .container .message textarea {
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.area .container .message textarea::placeholder {
+    margin-left: 10px;
+}

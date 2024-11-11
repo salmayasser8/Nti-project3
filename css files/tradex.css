@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+}
+
+nav ul a:hover {
+    color: rgba(0, 0, 255, 0.404);
+}
+
+nav ul {
+    font-family: math;
+    display: flex;
+    margin-left: 100px;
+}
+
+header ul .last {
+    border-left: 1px solid white;
+    padding-left: 20px;
+
+    height: 40px;
+}
+
+.carousel-indicators[data-bs-target] {
+    width: 8px;
+    height: 8px;
+
+}
+
+.about {
+    background-color: rgb(250, 250, 250);
+
+}
+
+.about .top {
+    font-family: math;
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+
+}
+
+.about .top span:before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 26%;
+    left: 58%;
+}
+
+.about .top span:after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 33%;
+    left: 58%;
+
+
+
+}
+
+.about .top h1::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 33%;
+    left: 36%;
+
+}
+
+.about .top h1::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 25%;
+    left: 38%;
+}
+
+
+/* @media (min-width:768px) {
+    .icons {
+
+        position: relative;
+        top: 20px;
+        left: 80px;
+
+
+    }
+} */
+
+.cards h5 {
+    font-family: ui-monospace;
+}
+
+.cards i {
+    font-size: 25px;
+
+    height: 100px;
+}
+
+.cards i:hover,
+.cards h5:hover {
+    color: #0c66edb6;
+    transition: 0.5 ease-in-out;
+}
+
+
+.reaction i {
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.services {
+    background-image: url("../images/service-bg.jpg");
+    background-image: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.services .head .overlay {
+    background-color: rgba(0, 0, 0, 0.799);
+
+}
+
+.services .head .overlay h1 {
+
+    position: relative;
+    display: inline-block;
+}
+
+.services .head .overlay h1::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: -90px;
+
+}
+
+.services .head .overlay span::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: 110%;
+
+}
+
+
+.services .head .overlay h1::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: -27%;
+}
+
+.services .head .overlay span::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: 110%;
+}
+
+.services .head .overlay p,
+.team .head p,
+.work .head p,
+.price .head p,
+.blog .head .top {
+    width: 65%;
+    margin: auto;
+
+}
+
+.services .parent h4 {
+    font-family: math;
+
+}
+
+.services .parent .child {
+    width: 100%;
+
+    top: 100%;
+    left: 0%;
+    transition: 0.3s ease-in;
+}
+
+
+
+.services .parent:hover .child {
+    top: 0%;
+}
+
+.container .parent i {
+    font-size: 30px;
+}
+
+
+.work .head {
+    text-align: center;
+}
+
+.work .head h1 {
+
+    position: relative;
+    display: inline-block;
+}
+
+.work .head h1::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: -79px;
+
+}
+
+.work .head span::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: 110%;
+
+}
+
+
+.work .head h1::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: -27%;
+}
+
+.work .head span::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: 110%;
+}
+
+.work nav ol {
+    margin-left: 380px;
+}
+
+.work nav ol a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+.work nav ol a:hover {
+    color: rgba(0, 0, 255, 0.688);
+    transition: 0.5s ease-out;
+}
+
+.work .parent .child {
+    width: 90%;
+    top: 80%;
+    color: white;
+    background-color: #2e7df4;
+    left: 5%;
+    transform: scaleX(0);
+}
+
+.work .parent:hover {
+    box-shadow: 0px 0px 5px 2px lightgray;
+
+}
+
+.work .parent:hover .child {
+    transform: scaleX(1);
+    transition: 0.5s ease-in;
+}
+
+.work .parent .child h5::after,
+.work .parent .exp-child h5::after {
+    content: "+";
+    margin-left: 100px;
+    font-size: 22px;
+}
+
+.work .parent .exp-child {
+    width: 90%;
+    top: 75%;
+    color: white;
+    background-color: #2e7df4;
+    left: 5%;
+    transform: scaleX(0);
+}
+
+.work .parent:hover .exp-child {
+    transform: scaleX(1);
+    transition: 0.5s ease-in;
+}
+
+.team .head {
+    text-align: center;
+
+}
+
+.team .head h1 {
+    position: relative;
+}
+
+.team .head h1::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 63%;
+    left: 32%;
+}
+
+.team .head span::before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 63%;
+    left: 63%
+}
+
+
+.team .head h1::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    left: 34%;
+    top: 53%
+}
+
+.team .head span::after {
+
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 53%;
+    left: 63%;
+}
+
+.team .parent .child {
+    box-shadow: 0px 0px 5px 2px lightgray;
+    top: 85%;
+    left: 15%;
+    width: 90%;
+    border-bottom: 2px;
+
+}
+
+.team .parent .child h5 {
+
+    font-family: math;
+}
+
+.team .parent .child h5:hover {
+    color: #2e7df4;
+}
+
+.team .parent .child .person button i:hover {
+    color: black;
+    transition: 0.5s ease-out;
+}
+
+.team .parent .child .person {
+    top: 90%;
+
+
+}
+
+.team .parent .child .person p {
+    width: 80%;
+
+}
+
+.team .parent:hover .child {
+    transition: 0.2s ease-out;
+    top: 50%;
+}
+
+.price .head {
+    text-align: center;
+}
+
+
+
+.price .head .our-price:before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 60%;
+    left: 36%;
+}
+
+.price .head h1:after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 60%;
+    left: 59%;
+}
+
+.price .head .our-price span:before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: 38%;
+}
+
+.price .head .our-price span:after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 50%;
+    left: 59%;
+}
+
+
+
+.price .head .container h1::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #5493f2;
+    position: absolute;
+    top: 125%;
+    left: 40%;
+}
+
+.price .head .container .first {
+    margin-top: 20px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(238, 237, 237);
+    width: 100%;
+    padding: 30px;
+}
+
+.price .head .container p {
+    border-bottom: 1px solid rgb(238, 237, 237);
+}
+
+.price .head .container .business {
+    box-shadow: 0px 0px 20px 5px lightgray;
+
+}
+
+
+
+.testimonial .head h1::before {
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: 32%;
+}
+
+.testimonial .head h1::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 65%;
+    left: 62%;
+}
+
+.testimonial .head span::before {
+
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 55%;
+    left: 35%;
+}
+
+.testimonial .head span::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 55%;
+    left: 62%;
+}
+
+.testimonial .buttons .btn-1:hover,
+.testimonial .buttons .btn-2:hover {
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.blog .head {
+    text-align: center;
+}
+
+.blog .head h1:before {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 55%;
+    left: 36%;
+}
+
+.blog .head h1:after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 55%;
+    left: 59%;
+}
+
+.blog .container .parent .child {
+    box-shadow: 0px 0px 5px 2px lightgray;
+
+}
+
+.blog .container .parent:hover .image img {
+    transform: rotate(-3deg) scale(1.2);
+}
+
+.blog .container .parent .child .icons {
+    border-bottom-left-radius: 5px;
+}
+
+.blog .container .parent .child h6 {
+    font-family: math;
+    word-spacing: 2px;
+}
+
+
+.blog .container .parent .child .icons {
+    background-color: black;
+}
+
+.blog .container .parent .child h6:hover {
+    color: #5493f2;
+    transition: 0.5s ease-out;
+}
+
+.blog .container .parent:hover .child .icons {
+    background-color: #347eeb;
+    transition: 0.5s ease-out;
+}
+
+.blog .container .parent .child .icons i:hover {
+    color: #c2d5f2;
+}
+
+.blog .container .parent .child .content a i {
+    font-size: 12px;
+
+}
+
+.blog .container .parent .child .content a {
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.blog .container .parent .child .content .links a:hover {
+    color: #347eeb;
+}
+
+.blog .container .parent .child .content .links a {
+    color: gray;
+}
+
+.blog .container .parent .child .content .link-2 {
+    border-left: 1px solid gray;
+    height: 25px;
+    /*height of border*/
+}
+
+.blog .container .parent .child .content .progress .progress-bar {
+    width: 25%;
+}
+
+.blog .container .parent:hover .child .content .progress .progress-bar {
+    width: 100%;
+}
+
+.blog .container .parent .child .content .more i {
+    cursor: pointer;
+}
+
+.blog .container .parent .child .content .more i:hover {
+    padding-left: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+@media (min-width:576px) {
+    .blog .parent .child {
+        position: relative;
+        display: flex;
+
+    }
+}
+
+@media (min-width:576px) {
+    .blog .parent .child .icons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+}
+
+@media (min-width:768px) {
+    .blog .parent .child .icons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+}
+
+.clients h1 {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.clients h1::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    top: 60%;
+    left: 63%;
+}
+
+.clients span::after {
+    content: "";
+    background-color: #0C65ED;
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    top: 70%;
+    left: 63%;
+
+}
+
+footer .container .left h3::after,
+footer .container .center h3::after,
+footer .container .right h3::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #5493f2;
+    position: absolute;
+    top: 130%;
+    left: 0;
+}
+
+footer .container .center .images .paragraph p {
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+footer .container .center .images .paragraph p:hover {
+    color: rgb(137, 133, 133);
+    transition: 0.5s ease-in-out;
+}
+
+footer .container .right .buttons button:hover {
+    background-color: #347eeb;
+    color: white;
+    border-color: #347eeb;
+}
+
+footer .container .center .images {
+    border-bottom: 2px solid rgb(137, 133, 133);
+    padding: 10px;
+}
+
+footer .end {
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 0px black;
+    font-weight: bold;
+    font-size: 14px;
+}
